@@ -1,0 +1,42 @@
+img{
+    width: 100px;
+    border: 5px solid red;
+    padding: 5px;
+    margin: 10px;
+    background-color: lightblue;
+/* Put in the Center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+   width: 600px;
+   margin: auto;
+   overflow: auto;
+   background-color:aquamarine;"
+}
+hr{
+    height: 2px;
+    background-color: black;
+    border-radius: 0px;
+}
+div img:hover{
+    opacity: .5;
+    background-color:whitesmoke;
+}
+body{
+    background-image: url('istockphoto-1400891277-612x612.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h4,p.nam,p.Hob,p.exp,p.ex{
+    padding-left: 5px;
+}
+h4.cont{
+    padding-left: 200px;
+}
+
+h4.about-me{
+    padding-left: 5px;
+}
